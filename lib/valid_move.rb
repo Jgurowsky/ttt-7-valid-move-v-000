@@ -6,7 +6,7 @@ end
 def position_taken?(board, index)
   if board[index] == " "
     return false
-  elsif board[index] == ""
+  elsif board[index] == "" # "" returns nil
     return false
   else # else statements can't have conditions
     return true
