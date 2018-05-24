@@ -8,7 +8,7 @@ def position_taken?(board, index)
     return false
   elsif board[index] == ""
     return false
-  else
+  else # else statements can't have conditions
     return true
   end
 end
